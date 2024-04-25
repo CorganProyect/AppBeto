@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.theme.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="ULTRA MEDIA"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:hint="Numero x Numero"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Total"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText3"
+        tools:layout_editor_absoluteY="80dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
